@@ -1,0 +1,11 @@
+<div id="main">
+
+  <b>{{number_of_results}} result(s) found:</b>
+
+  <ul class="results">
+    {{#user_data}}
+      <li class="user"><span class="user_id">{{id}}</span><span class="name"><a>{{name}}</a></span> - <span class="organization_name">{{organization_name}}</span></li>
+    {{/user_data}}
+  </ul>
+
+</div>

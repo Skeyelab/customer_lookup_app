@@ -1,0 +1,32 @@
+{
+  "name": "Thomson Local",
+  "author": {
+    "name": "Fabian Dittrich",
+    "email": "fdittrich@zendesk.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": ["new_ticket_sidebar"],
+  "frameworkVersion": "0.5",
+
+  "parameters" : [
+     {
+       "name" : "tag",
+       "type" : "text",
+       "required" : true
+     },
+     {
+       "name" : "require_email",
+       "type" : "checkbox"
+     },
+     {
+       "name" : "require_name",
+       "type" : "checkbox"
+     },
+     {
+       "name" : "require_organization",
+       "type" : "checkbox"
+     }
+   ]
+
+}

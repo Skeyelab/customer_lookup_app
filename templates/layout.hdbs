@@ -1,0 +1,18 @@
+<header>
+  <span class="logo"/>
+  <h3>Customer Lookup</h3>
+</header>
+<div id="layout">
+
+
+<div class="search-bar">
+			<div class="search-wrapper">
+				<input class="search-box phone_number" type="text" id="type-label-value" placeholder="Enter telephone number and press enter" />
+				<span class="search-icon"></span>
+			</div>
+			<div class="suggestions"></div>
+		</div>
+
+</div>
+<span class='spinner'></span>
+<section data-main/>

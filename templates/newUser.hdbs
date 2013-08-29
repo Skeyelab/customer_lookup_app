@@ -1,0 +1,36 @@
+<div id="main">
+  No user found
+  <br/>
+  <br/>
+  <div class="new_user">
+    <span class="add_a_new_user">Add User</b></span>  
+    <div class="new_user_errors">
+      <ul>
+        {{#user_errors}}
+          <li class="user_error"><span>{{this}}</span></li>
+        {{/user_errors}}
+      </ul>
+    </div>
+
+    <label>Telephone:</label>
+    <input class="new_user_field new_user_phone_number" value="{{phone_number}}" type="text" id="type-label-value" placeholder="" />
+    <br/>
+
+    <label>Name {{#if require_name}}*{{/if}}:</label>
+    <input value="{{user_name}}" class="new_user_field new_user_name" type="text" id="type-label-value" placeholder="" />
+    <br/>
+
+    <label>Email {{#if require_email}}*{{/if}}:</label>
+    <input value="{{user_email}}" class="new_user_field new_user_email" type="text" id="type-label-value" placeholder="" />
+    <br/>
+
+    <div>
+    <label>Organization {{#if require_organization}}*{{/if}}:</label>
+    <input value="{{user_organization}}" class="new_user_field new_user_organization" org_name="" type="text" id="type-label-value" placeholder="" org_id="" />
+    </div>
+    <br/>
+
+
+    <input class="btn btn-small btn-success create_user_button" type="submit" id="type-label-value" name="Create User" value="Add User" />
+  </div>
+</div>

@@ -1,0 +1,115 @@
+#layout p{
+  font-size: 13px;
+}
+
+span.spinner {
+  background-image: app-asset-url("spinner.gif");
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#main .new_user_field {
+  margin: 0px 0px 0px 0;
+  width: 268px;
+  height: 19px;
+}
+
+#main .new_user_errors {
+  color: red;
+  margin-top: 7px;
+}
+
+.create_user_button {
+  margin-left: 60px;
+  font-size: 13px;
+  width: 160px;
+}
+
+#main label {
+  float:left;
+  margin-top: 8px;
+  vertical-align:middle;
+  width: 100px;
+  height: 19px;
+}
+
+
+#main .add_a_new_user {
+  font-weight: bold;
+}
+
+#main .field_explanation{
+  width: 200px;
+  margin: -7px 0px 0px 100px;
+  font-size: 10px;  
+  display:block;
+}
+
+
+#main{
+  margin-top: 10px;
+}
+
+#main .results{
+  margin-top: 10px;
+  margin-left: 5px;  
+}
+
+#main .results li{
+  border-bottom: 1px dashed grey;
+  padding: 5px 0;
+}
+
+#main .results li span.user_id{
+  display: none;
+}
+
+
+#main .results li, #main .results a{
+  cursor: w-resize;
+}
+
+
+.search-wrapper {
+  position: relative;
+  width: 280px;
+  margin: 10px 0 5px 0;
+
+  .search-icon {
+    background: url(/console/assets/icons/globals-s54b9a09d1f.png) no-repeat;
+    position: absolute;
+    background-position: 0 -377px;
+    top: 11px;
+    right: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .search-box {
+    padding-right: 30px;
+    margin-top:5px;
+  }
+
+}
+
+.ui-autocomplete {
+  width: 200px !important;
+  height: 50px !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+
+div.new_user {
+  padding: 20px;
+  margin-top: 5px;
+  background: #f5f5f5;
+  border-radius: 5px;
+}

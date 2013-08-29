@@ -1,0 +1,14 @@
+{
+  "app": {
+    "description":  "Create ticket from phone call",
+    "name":         "Create ticket from phone call",
+
+    "parameters": {
+      "email_suffix" : { "label": "Email Suffix", "helpText": "e.g. \"@domain.com\"" },
+      "tag" : { "label": "Tag", "helpText": "This tag will be added to tickets created with this app" },
+      "require_email" : { "label": "Require Email?", "helpText": "Make the email field required?" },
+      "require_name" : { "label": "Require Name?", "helpText": "Make the name field required?" },      
+      "require_organization" : { "label": "Require Organization?", "helpText": "Make the organization field required?" }
+    }
+  }
+}
