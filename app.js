@@ -318,7 +318,7 @@ If no user is found a new user is created (with a generated email address includ
     },
 
     userCreationFail: function(data) {
-      services.notify('User creation failed');
+      services.notify('User creation failed. A user with hte provided email address might already exist.', "error");
       services.appsTray().hide();
     },
 
