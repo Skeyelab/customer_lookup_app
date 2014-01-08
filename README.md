@@ -1,7 +1,8 @@
-Customer Lookup App
-===================
+:warning: *Use of this software is subject to important terms and conditions as set forth in the License file* :warning:
 
-This is a New Zendesk app to streamline the process of manually logging incoming calls.
+# Customer Lookup App
+
+This is a New Zendesk App to streamline the process of manually logging incoming calls.
 
 **How do you use it?**
 
