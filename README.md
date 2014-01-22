@@ -42,9 +42,6 @@ If a user is found, you can set that user as the requester of the ticket.
 
 ![one user](https://www.evernote.com/shard/s215/sh/4c65f209-f10d-46a2-a643-e09740b3e526/0b03e6ac6e6dafc5a69c9abcc5e8c04c/deep/0/Toby's%20Support%20-%20Agent.png "One User Result")
 
-If multiple users are found, the agent can select which user to set as the requester.
-
-![multiple users](https://www.evernote.com/shard/s215/sh/2964002e-cb6a-45a6-9dc4-ec74f719b113/c8dd9f92c56eb8ff155921ab280b2744/deep/0/Toby's%20Support%20-%20Agent.png "Multiple Users Result")
 
 If no users are found, a simple form appears that allows the agent to create a new user. There are 3 fields: name, email and organisation.
 
