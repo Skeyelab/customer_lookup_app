@@ -1,10 +1,40 @@
 :warning: *Use of this software is subject to important terms and conditions as set forth in the License file* :warning:
 
+:warning: *Use of this software is subject to important terms and conditions as set forth in the License file* :warning:
+
 # Customer Lookup App
+
+## Description:
 
 This is a New Zendesk App to streamline the process of manually logging incoming calls.
 
-**How do you use it?**
+**Notes**
+
+* The name and organisation field automatically capitalise the first letter of every word.
+* There is validation on the email address to make sure it is entered in the correct format.
+* There is an auto-suggest dropdown on the organisation field to select an existing organisation. If no matching organisation is found, you simply type the name of the organisation and it will be created when you add the user.
+
+## App location:
+
+* Ticket sidebar
+
+## Features:
+
+* Set a new user as the requester
+* Create tickets for new users
+* Do lookups based on telephone numbers
+
+## Set-up/installation instructions:
+
+You can specify in the admin settings if you want tickets created with this app automatically tag and which fields for adding a new user are required:
+
+![admin settings](https://www.evernote.com/shard/s215/sh/8fec7086-65a9-408f-8674-d02dbd972b99/1290aa349837bc64001c1a5bae451cb4/deep/0/Screen%20Shot%202013-08-29%20at%2016.14.03.png "App Settings")
+
+## Contribution:
+
+Pull requests are welcome.
+
+## Screenshot(s):
 
 The agent inputs a telephone number into the app and then a lookup is performed for users with that telephone number.
 
@@ -22,12 +52,6 @@ If no users are found, a simple form appears that allows the agent to create a n
 
 ![new user form](https://www.evernote.com/shard/s215/sh/4ee26795-8d41-4ab7-bedc-d52c13954be4/1c2fd64dc3398cf718f39c27754d1c85/deep/0/Toby's%20Support%20-%20Agent.png "Add New User")
 
-You can specify in the admin settings if you want tickets created with this app automatically tag and which fields for adding a new user are required:
 
-![admin settings](https://www.evernote.com/shard/s215/sh/8fec7086-65a9-408f-8674-d02dbd972b99/1290aa349837bc64001c1a5bae451cb4/deep/0/Screen%20Shot%202013-08-29%20at%2016.14.03.png "App Settings")
 
-**Notes**
 
-* The name and organisation field automatically capitalise the first letter of every word.
-* There is validation on the email address to make sure it is entered in the correct format.
-* There is an auto-suggest dropdown on the organisation field to select an existing organisation. If no matching organisation is found, you simply type the name of the organisation and it will be created when you add the user.
